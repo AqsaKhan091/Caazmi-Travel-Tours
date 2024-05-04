@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caazmi Travel & Tours - Explore the World</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- /////////Bootstrap Links/////////-->
+
+    <!-- \\\\\\\\\\\ Fonts Awesome Links Start \\\\\\\\\\\ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- \\\\\\\\\\\ Fonts Awesome Links End \\\\\\\\\\\ -->
+
+    <!-- \\\\\\\\\\\ Fonts Links Start \\\\\\\\\\\ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- \\\\\\\\\\\ Fonts Links End \\\\\\\\\\\ -->
+</head>
+
+<body>
+    <!-- //////////////// Header Start ///////////////// -->
+    <div class="container-fluid" id="bg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link scroll" href="#"> <span></span>&nbsp;&nbsp;Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link scroll" href="#"> <span></span>&nbsp;&nbsp;About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link scroll" href="#"> <span></span>&nbsp;&nbsp;Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link scroll" href="#">&nbsp;&nbsp;Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                &nbsp;&nbsp;FAQs
+              </a>
+                            <div class="dropdown-menu">
+                                <a style="border-bottom:1px solid rgba(0, 0, 107, 0.459);" class="dropdown-item" id="drop" href="#">Lorem Ipsum</a>
+                                <a style="border-bottom:1px solid rgba(0, 0, 107, 0.459);" class="dropdown-item" id="drop" href="#">Lorem Ipsum</a>
+                                <a class="dropdown-item" id="drop" href="#">Lorem Ipsum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link scroll" href="#"> <span></span>&nbsp;&nbsp;Contact us</a>
+                        </li>
+                    </ul>
+
+                    <a href="#"><button type="submit" id="butn1" data-toggle="modal"
+              data-target="#exampleModal">Register</button></a> &nbsp;&nbsp;&nbsp;
+                    <a href="#"><button type="submit" id="butn2" data-toggle="modal" data-target="#exampleModal">Sign</button></a>
+
+                    </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-10 col-md-10 col-sm-10" id="heading">
+                    <h2>Explore the World with</h2>
+                    <h1> Caazmi Travel & Tours</h1>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+
+            </div>
+
+            <div class="row" id="selection">
+                <div class="col-lg-4 col-md-4 col-sm-4" id="border">
+                    <form id="dropdown">
+                        <label>Destinations <i class="fa-solid fa-chevron-down"></i></label>
+                        <select>
+              <option>Where are you going</option>
+              <option>Europe</option>
+              <option>&nbsp;&nbsp;- Greece</option>
+              <option>&nbsp;&nbsp;- France</option>
+              <option>&nbsp;&nbsp;- Italy</option>
+              <option>Asia</option>
+              <option>&nbsp;&nbsp;- Thailand</option>
+              <option>&nbsp;&nbsp;- Japan</option>
+              <option>U.S.A</option>
+              <option>&nbsp;&nbsp;- California</option>
+            </select>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3" id="border">
+                    <form id="date">
+                        <label>Date <i class="fa-solid fa-chevron-down"></i></label>
+                        <input type="date" placeholder="Choose Date">
+                    </form>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <form id="guest">
+                        <label>Guest <i class="fa-solid fa-chevron-down"></i></label>
+                        <input type="number" placeholder="&nbsp; &nbsp;&nbsp; - Add +">
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <button type="submit" id="butn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <!-- //////////////// Header End ///////////////// -->
+
+        <!-- //////////////// Section One Start ///////////////// -->
+
+        <div class="container" id="sec-1">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4" id="side-img">
+                    <a href="#">
+                        <div id="overlay">
+                            <h3>10+</h3>
+                            <h5>Years of Experience</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8" id="sidetext">
+                    <a href="#">
+                        <h2>&#11834; About us</h2>
+                        <h3>WORLD'S BEST TRAVEL AGENCY</h3>
+                        <p>Welcome to Caazmi Travel & Tours, we're passionate about crafting unforgettable travel experiences for our clients. With years of expertise and a dedication to personalized service, we strive to turn your travel dreams into reality.
+                            Whether you're seeking a relaxing beach getaway, an adrenaline-fueled adventure, or a cultural immersion in far-off lands, we're here to guide you every step of the way. Let us take the stress out of planning and ensure your
+                            next journey is nothing short of extraordinary.
+                        </p>
+                    </a>
+                    <button type="submit" id="butn">Discover More&nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </div>
+        <!-- //////////////// Section One End ///////////////// -->
+
+        <!-- //////////////// Section Two End ///////////////// -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" id="sec-2">
+                    <h2>&#11834; Destinations</h2>
+                    <h3>OUR POPULAR DESTINATIONS</h3>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-3">
+                    <a href="#">
+                        <div class="card" style="width:250px" id="box1">
+                            <div class="card-body" id="overlap">
+                                <h4 class="card-title">IRAN</h4>
+                                <span class="card-text">30% off Discount</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-3">
+                    <a href="#">
+                        <div class="card" style="width:250px" id="box2">
+                            <div class="card-body" id="overlap">
+                                <h4 class="card-title">SAUDIA ARABIA</h4>
+                                <span class="card-text">30% off Discount</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-3">
+                    <a href="#">
+                        <div class="card" style="width:250px" id="box3">
+                            <div class="card-body" id="overlap">
+                                <h4 class="card-title">TURKEY</h4>
+                                <span class="card-text">30% off Discount</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-3">
+                    <a href="#">
+                        <div class="card" style="width:250px" id="box4">
+                            <div class="card-body" id="overlap">
+                                <h4 class="card-title">DUBAI</h4>
+                                <span class="card-text">30% off Discount</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5"></div>
+                <div class="col-lg-2 col-md-3 col-sm-2" style="margin-bottom:20px;">
+                    <button type="submit" id="butn">View More&nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-5"></div>
+            </div>
+
+            <!-- //////////////// Section Two End ///////////////// -->
+
+            <!-- //////////////// Section Three Start ///////////////// -->
+
+            <div class="container" id="sec-3">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="sec-2">
+                        <h2>&#11834; Services</h2>
+                        <h3>WE PROVIDE OUR TOP SERVICES</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-house-chimney card-title"></i>
+                                    <h5 class="card-text">Accommodation Booking</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-plane-departure card-title"></i>
+                                    <h5 class="card-text">Transporatation Booking</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-shield-halved card-title"></i>
+                                    <h5 class="card-text">Travel Insurance</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-passport card-title"></i>
+                                    <h5 class="card-text">Visa & Documentation</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-headset card-title"></i>
+                                    <h5 class="card-text">Customer Support</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:310px" id="ser-1">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-handshake-simple card-title"></i>
+                                    <h5 class="card-text">Special Deals & Prom</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4" style="text-align:center; margin-top:20px;">
+                        <button type="submit" id="butn">Learn More&nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                </div>
+
+            </div>
+
+            <!-- //////////////// Section Three End ///////////////// -->
+
+            <!-- //////////////// Section Four Start ///////////////// -->
+
+            <div class="container" id="sec-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="sec-2">
+                        <h2>&#11834; Why You Choose Us?</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5" id="sideimg2"></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" id="choose">
+                                <h4>Big Choice</h4>
+                                <p>We have more than 50 tours to different countries.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" id="choose">
+                                <h4>Guided Tours</h4>
+                                <p>Our experienced guides are always on hand to ensure your comfort and safety.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" id="choose">
+                                <h4>Safety</h4>
+                                <p>Our experienced specialist are ready to take care of your comfort and safety.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" id="choose">
+                                <h4>Professional Support</h4>
+                                <p>All our tours and activities are tested and safe for human life.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- //////////////// Section Four End ///////////////// -->
+
+            <!-- //////////////// Section Five Start ///////////////// -->
+
+            <div class="container" id="sec-5">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="sec-2" style=" margin-bottom:20px;">
+                        <h2>&#11834; What our client say? </h2>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#">
+                            <div class="card" style="width:325px" id="testi">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <img src="img/1.jpg" alt="" id="testi-img" class="w-100">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8">
+                                            <h6>HENRY JOSEPH</h6>
+                                            <p>12-01-2023</p>
+                                            <span<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i><span>
+                  </div>
+                </div>
+                <hr>
+                <p>Increadible service! Caazmi Travel & Tours took care of every detail, ensuring our trip as flawless.
+                  Their knowledgeable staff provideddd excellent recommendations, and their personalized approach madde
+                  us feel like valued clients.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <a href="#">
+            <div class="card" style="width:325px" id="testi">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="img/2.jpg" alt="" id="testi-img" class="w-100">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8">
+                    <h6>ABDUL AZEEM</h6>
+                    <p>02-01-2024</p>
+                    <span<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i><span>
+                  </div>
+                </div>
+                <hr>
+                <p>Increadible service! Caazmi Travel & Tours took care of every detail, ensuring our trip as flawless.
+                  Their knowledgeable staff provideddd excellent recommendations, and their personalized approach madde
+                  us feel like valued clients.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <a href="#">
+            <div class="card" style="width:325px" id="testi">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4">
+                    <img src="img/3.jpg" alt="" id="testi-img" class="w-100">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8">
+                    <h6>YASIN ABBAS</h6>
+                    <p>11-03-2024</p>
+                    <span<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                        class="fa-solid fa-star"></i><span>
+                  </div>
+                </div>
+                <hr>
+                <p>Increadible service! Caazmi Travel & Tours took care of every detail, ensuring our trip as flawless.
+                  Their knowledgeable staff provideddd excellent recommendations, and their personalized approach madde
+                  us feel like valued clients.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4" style="text-align:center; margin-top:20px;">
+          <button type="submit" id="butn">Give a Review&nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+      </div>
+    </div>
+    <!-- //////////////// Section Five End ///////////////// -->
+
+    <!-- //////////////// Section Six Start ///////////////// -->
+
+    <div class="container" id="sec-6">
+      <div class="row" id="overlay2">
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <h2>Your Travel Journey Starts Here</h2>
+          <h5>Contact us Now for travel tips, personalized itineraries, and vacation inspiration straight to your box
+          </h5>
+          <button type="submit" id="butn">Contact us Now&nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+
+      </div>
+    </div>
+  </div>
+  <!-- //////////////// Section Six End ///////////////// -->
+
+  <!-- //////////////// Footer Start ///////////////// -->
+
+  <div class="container-fluid" id="footer">
+    <div class="row" id="overlap2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4" id="aboutus">
+            <img src="img/logo.png" id="logo">
+            <h5>About us</h5>
+            <p>Welcome to Caazmi Travel & Tours, we're passionate about crafting unforgettable travel experiences for
+              our clients. With years of expertise and a dedication to personalized service, we strive to turn your
+              travel dreams into reality.</p>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-3 col-md-3 col-sm-3" id="address">
+            <h5>Address</h5>
+            <p>Address: Office No:25, Floor, 2nd. Dawood Center, Hyderabad</p>
+            <p>Phone: +92 3033511879</p>
+            <p> <a href="#"> Email: support@caazmisol.com</p></a>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1"></div>
+
+          <div class="col-lg-3 col-md-3 col-sm-3" id="contact">
+            <h5 style=" margin-bottom:20px;">Follow us on&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-facebook"></i></h5>
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> About</a></li>
+              <li><a href="#"> Services</a></li>
+              <li><a href="#"> FAQs</a></li>
+              <li><a href="#"> Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2"></div>
+          <div class="col-lg-8 col-md-8 col-sm-8" id="copyright">
+            <a href="#"> @Copyright 2024 <span>Caazmi Travel & Tours</span> All Rights Reserved</a>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- //////////////// Footer End ///////////////// -->
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
